@@ -1,0 +1,13 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+svg {
+  padding: 2rem;
+  text-align: center;
+}
+
+.tile {
+  font-size: 0.8em;
+}
