@@ -10,21 +10,21 @@ Array.from(document.getElementsByClassName('nav-link')).forEach((el) => {
 
 if (params.get('data') === 'movies') {
   data = await d3.json(
-    'https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/movie-data.json'
+    'data/movie-data.json'
   );
   title = 'Movie Sales';
   description = 'Top 100 Highest Grossing Movies Grouped By Genre';
   document.getElementById('movies').classList.add('active');
 } else if (params.get('data') === 'videogames') {
   data = await d3.json(
-    'https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/video-game-sales-data.json'
+    'data/video-game-sales-data.json'
   );
   title = 'Video Game Sales';
   description = 'Top 100 Most Sold Video Games Grouped by Platform';
   document.getElementById('videogames').classList.add('active');
 } else {
   data = await d3.json(
-    'https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/kickstarter-funding-data.json'
+    'data/kickstarter-funding-data.json'
   );
   title = 'Kickstarter Pledges';
   description =
