@@ -4,6 +4,8 @@
 
 This project is part of my [Data Visualization V8 certification from freeCodeCamp](https://www.freecodecamp.org/certification/benonsocial/data-visualization).
 
+https://github.com/user-attachments/assets/b1cd336a-42b1-42a4-a383-6158ff576d52
+
 ## Objective
 
 Build an app that is functionally similar to this: https://treemap-diagram.freecodecamp.rocks.
